@@ -4,6 +4,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 }
 
 main {
-    width: 25%;
+    width: 350px;
     background-color: hsl(0, 0%, 100%);
     display: flex;
     justify-content: center;
@@ -35,14 +36,15 @@ img {
 
 p {
     color: hsl(216, 15%, 48%);
-     font-weight: 400 ;
-    font-size: 15px;
-    padding: 10px 10px 20px 10px;
+    font-weight: 400 ;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 0px 20px 30px;
 }
 
 h2 {
     color: hsl(218, 44%, 22%);
     font-weight: 700 ;
     font-size: 18px;
-    padding: 10px;
+    padding: 20px 10px;
 }
